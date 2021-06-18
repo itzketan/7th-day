@@ -41,12 +41,12 @@ by default the body temperature should be 98 degree
 def covid(n,t):
     return (n,t)
 def d(T = 98):
-    return d(98)
+    return d(T = 98)
 n = str(input("Enter Patient Name : "))
 t = str(input("Enter Patient Body Temperature In Degree : "))
 
 print("Patient Name : " + n)
 if t != 98 :
-    print("Patient Body Temperature : " + t)
+    print("Patient Body Temperature : " + t + " Degree")
 else:
-    print("Default Temperature : " + d(T = 98))
+    print("Default Temperature : " + d(T = 98) + " Degree")
